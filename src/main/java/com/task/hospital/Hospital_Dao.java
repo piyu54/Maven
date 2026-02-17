@@ -70,9 +70,9 @@ public class Hospital_Dao {
 	
 
 	
-	 public boolean insertDoctor(Doctor d) throws Exception {
+	 public void insertDoctor(Doctor d) throws Exception {
 
-	        boolean status = false;
+	        
 	        
 	        Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "root");
@@ -134,7 +134,7 @@ public class Hospital_Dao {
 			} else {
 			    System.out.println("Failed to add doctor.");
 			}
-			return status;
+			
 	        
 	 }
 
