@@ -29,7 +29,7 @@ public class Hospital_Controller {
 			case 1:
 				System.out.println("-------------Patient Details---------");
 				System.out.println("1.Insert Your details");
-				
+				System.out.println("2.Update  Doctor Details");
 				System.out.println("2.See Your Doctor Details");
 				int choice2=s.nextInt();
 				switch(choice2)
