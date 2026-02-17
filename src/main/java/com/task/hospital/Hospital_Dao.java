@@ -16,7 +16,7 @@ public class Hospital_Dao {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "root");
 		PreparedStatement ps = con.prepareStatement(
-				"insert into patient (patient_name, age, gender, disease, admit_date, phone, address, doctor_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+				"insert into patient (patient_name, age, gender, disease, admit_date, phone, address, doctor_id) values (?, ?, ?, ?, ?, ?, ?, ?)");
 
 		System.out.println("Enter Patient Name:");
 		String name = s.next();
