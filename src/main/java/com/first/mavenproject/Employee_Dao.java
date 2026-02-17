@@ -59,8 +59,8 @@ public class Employee_Dao {
 		e.setAddarcard(aadharcard);
 
 		System.out.print("Enter Salary: ");
-		String salary = s.nextLine();
-		e.setAddarcard(salary);
+		int salary = s.nextInt();
+		e.setSalary(salary);
 
 //		ps.setInt(1, e.getId());
 		ps.setString(1, e.getFirstname());
