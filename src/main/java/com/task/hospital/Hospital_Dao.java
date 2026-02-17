@@ -11,8 +11,8 @@ public class Hospital_Dao {
 	
 	Scanner s = new Scanner(System.in);
 
-	public boolean insert_Patience(Patient p) throws Exception {
-		boolean status = false;
+	public void insert_Patience(Patient p) throws Exception {
+		
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "root");
 		PreparedStatement ps = con.prepareStatement(
@@ -65,7 +65,7 @@ public class Hospital_Dao {
 			System.out.println("Dr not assign");
 		
         }
-		return status;
+		
 	}
 	
 
