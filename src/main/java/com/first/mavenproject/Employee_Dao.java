@@ -114,6 +114,8 @@ public class Employee_Dao {
 		ps.setString(1, name);
 		ps.setInt(2, id); 
         
+//		ps.setString(1, e.getFirstname());
+//		ps.setInt(2,e.getId());
 //		e.setFirstname(name);
 //		e.setAddress(address);
 //        ps.setString(1, name);        
