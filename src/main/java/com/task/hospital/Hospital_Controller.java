@@ -29,6 +29,7 @@ public class Hospital_Controller {
 			case 1:
 				System.out.println("-------------Patient Details---------");
 				System.out.println("1.Insert Your details");
+				
 				System.out.println("2.See Your Doctor Details");
 				int choice2=s.nextInt();
 				switch(choice2)
@@ -43,7 +44,22 @@ public class Hospital_Controller {
 				break;
 
 			case 2:
-//				hs.insert_Doctor(d);
+//				System.out.println("-------------Patient Details---------");
+				System.out.println("1.Insert Doctor details");
+				System.out.println("2.See  Doctor Details");
+				System.out.println("2.Update  Doctor Details");
+				System.out.println("2.Delete  Doctor Details");
+				int choice3=s.nextInt();
+				switch(choice3)
+				{
+				case 1:
+					hs.insert_Patience(p);
+					break;
+				case 2:
+//					hs.insert_Patience(p);
+					break;
+				}
+				break;
 				break;
 
 			case 3:
