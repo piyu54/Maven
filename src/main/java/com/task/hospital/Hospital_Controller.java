@@ -29,8 +29,9 @@ public class Hospital_Controller {
 			case 1:
 				System.out.println("-------------Patient Details---------");
 				System.out.println("1.Insert Your details");
-				System.out.println("2.Update  Doctor Details");
-				System.out.println("2.See Your Doctor Details");
+//				System.out.println("2.Update  Patient Details");
+//				System.out.println("3.Delete  Patient Details");
+				System.out.println("4.See Your Doctor Details");
 				int choice2=s.nextInt();
 				switch(choice2)
 				{
@@ -38,7 +39,7 @@ public class Hospital_Controller {
 					hs.insert_Patience(p);
 					break;
 				case 2:
-//					hs.insert_Patience(p);
+//					
 					break;
 				}
 				break;
@@ -46,21 +47,21 @@ public class Hospital_Controller {
 			case 2:
 //				System.out.println("-------------Patient Details---------");
 				System.out.println("1.Insert Doctor details");
-				System.out.println("2.See  Doctor Details");
-				System.out.println("2.Update  Doctor Details");
-				System.out.println("2.Delete  Doctor Details");
+				System.out.println("2.See  Patient Details");
+				System.out.println("3.Update Patient Details");
+				System.out.println("4.Delete Patient Details");
 				int choice3=s.nextInt();
 				switch(choice3)
 				{
 				case 1:
-					hs.insert_Patience(p);
+					hs.insert_Doctor(d);
 					break;
 				case 2:
 //					hs.insert_Patience(p);
 					break;
 				}
 				break;
-				break;
+				
 
 			case 3:
 				
