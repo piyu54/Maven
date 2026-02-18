@@ -20,7 +20,7 @@ public class PatientController {
 			System.out.println("1.Insert Your details");
 //			System.out.println("2.Update  Patient Details");
 //			System.out.println("3.Delete  Patient Details");
-			System.out.println("2.See Your Doctor Details");
+			System.out.println("4.See Your Doctor Details");
 
 			System.out.print("Enter choice: ");
 			int choice = s.nextInt();
