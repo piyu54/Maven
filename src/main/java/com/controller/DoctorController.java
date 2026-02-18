@@ -27,16 +27,16 @@ public class DoctorController {
 			switch (choice) {
 
 			case 1:
-				
-				
-				break;
-
-			case 2:
-//				System.out.println("-------------Patient Details---------");
+				System.out.println("-------------Patient Details---------");
 				System.out.println("1.Insert Doctor details");
 				System.out.println("2.See  Patient Details");
 				System.out.println("3.Update Patient Details");
 				System.out.println("4.Delete Patient Details");
+				
+				break;
+
+			case 2:
+//				
 				int choice3 = s.nextInt();
 				switch (choice3) {
 				case 1:
