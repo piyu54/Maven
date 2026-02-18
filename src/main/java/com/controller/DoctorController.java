@@ -37,15 +37,7 @@ public class DoctorController {
 
 			case 2:
 //				
-				int choice3 = s.nextInt();
-				switch (choice3) {
-				case 1:
-//					hs.insert_Doctor(d);
-					break;
-				case 2:
-//					hs.insert_Patience(p);
-					break;
-				}
+				
 				break;
 
 			case 3:
