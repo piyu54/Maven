@@ -17,9 +17,9 @@ public class DoctorController {
 		while (true) {
 
 			System.out.println("---------- Details------------");
-			System.out.println("1. Patient");
-			System.out.println("2. Doctor");
-			System.out.println("3. Exit");
+			
+			System.out.println("1. Doctor");
+			System.out.println("2. Exit");
 
 			System.out.print("Enter choice: ");
 			int choice = s.nextInt();
@@ -27,7 +27,7 @@ public class DoctorController {
 			switch (choice) {
 
 			case 1:
-				System.out.println("-------------Patient Details---------");
+				System.out.println("-------------Doctor Details---------");
 				System.out.println("1.Insert Doctor details");
 				System.out.println("2.See  Patient Details");
 				System.out.println("3.Update Patient Details");
