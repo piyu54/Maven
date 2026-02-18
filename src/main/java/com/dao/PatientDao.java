@@ -65,14 +65,7 @@ public class PatientDao {
 		System.out.println("Dr not assign");
 
 		}
-//		if(doctorId==p.getDoctorId())
-//		{
-//			System.out.println("success this dr have assign");
-//			
-//		}else {
-//			System.out.println("Dr not assign");
-//
-//		}
+
 		 
 	}
 }
