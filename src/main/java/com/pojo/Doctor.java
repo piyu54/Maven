@@ -1,5 +1,5 @@
 package com.pojo;
-
+//
 public class Doctor {
 
 	private int doctorId;
