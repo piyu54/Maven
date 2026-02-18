@@ -78,24 +78,24 @@ public class DoctorDao {
 		
         
  }
-	public boolean isDoctorPresent(int doctorId) throws Exception {
-		boolean status=false;
-	
-	        
-	        Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "root");
-			PreparedStatement ps = con.prepareStatement("SELECT * FROM doctor WHERE id = ?");
-			
-	        ps.setInt(1, doctorId);
-
-	        ResultSet rs = ps.executeQuery();
-
-	        if (rs.next()) {
-	            status = true;
-	        
-		
-		return false;
-	}
-			return status;
-	}
+//	public boolean isDoctorPresent(int doctorId) throws Exception {
+//		boolean status=false;
+//	
+//	        
+//	        Class.forName("com.mysql.cj.jdbc.Driver");
+//			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "root");
+//			PreparedStatement ps = con.prepareStatement("SELECT * FROM doctor WHERE id = ?");
+//			
+//	        ps.setInt(1, doctorId);
+//
+//	        ResultSet rs = ps.executeQuery();
+//
+//	        if (rs.next()) {
+//	            status = true;
+//	        
+//		
+//		return false;
+//	}
+//			return status;
+//	}
 }
