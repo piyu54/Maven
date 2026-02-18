@@ -27,20 +27,8 @@ public class DoctorController {
 			switch (choice) {
 
 			case 1:
-				System.out.println("-------------Patient Details---------");
-				System.out.println("1.Insert Your details");
-//				System.out.println("2.Update  Patient Details");
-//				System.out.println("3.Delete  Patient Details");
-				System.out.println("4.See Your Doctor Details");
-				int choice2 = s.nextInt();
-				switch (choice2) {
-				case 1:
-//					hs.insert_Patience(p);
-					break;
-				case 2:
-//					
-					break;
-				}
+				
+				
 				break;
 
 			case 2:
