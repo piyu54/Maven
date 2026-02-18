@@ -97,7 +97,8 @@ public class Patient {
 		return "Patient [patientId=" + patientId + ", patientName=" + patientName + ", age=" + age + ", gender="
 				+ gender + ", disease=" + disease + ", admitDate=" + admitDate + ", dischargeDate=" + dischargeDate
 				+ ", phone=" + phone + ", address=" + address + ", doctorId=" + doctorId + "]";
-	} 
+	}
+	//
     
     
 }
