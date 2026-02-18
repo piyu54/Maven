@@ -1,4 +1,4 @@
-package com.task.hospital;
+package com.pojo;
 
 public class Doctor {
 

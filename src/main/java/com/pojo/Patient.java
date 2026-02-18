@@ -1,4 +1,4 @@
-package com.task.hospital;
+package com.pojo;
 
 import java.sql.Date;
 
