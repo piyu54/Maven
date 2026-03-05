@@ -5,7 +5,7 @@ import com.dao.PatientDao;
 import com.pojo.Patient;
 
 public class PatientService {
-
+//
 	
 	public void insert_Patience1(Patient p) throws Exception
 	{
