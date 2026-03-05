@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.util.Scanner;
 
 import com.pojo.Patient;
-
+//
 public class PatientDao {
 	Scanner s = new Scanner(System.in);
 	DoctorDao doctorDao = new DoctorDao();
