@@ -9,7 +9,7 @@ import java.util.Scanner;
 import com.pojo.Doctor;
 
 public class DoctorDao {
-//
+
 	Scanner s = new Scanner(System.in);
 	public void insertDoctor(Doctor d) throws Exception {
 
