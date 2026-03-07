@@ -14,7 +14,7 @@ public class DoctorDao {
 	public void insertDoctor(Doctor d) throws Exception {
 
         
-        
+        //
         Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "root");
 		PreparedStatement ps = con.prepareStatement("insert into doctor(doctor_name, specialization, experience, salary, phone, email, gender, qualification, room_number)values (?, ?, ?, ?, ?, ?, ?, ?, ?)");
